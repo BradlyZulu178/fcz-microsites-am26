@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giraffes</title>
 </head>
-<a href="index.html">back</a>
+    <nav id="main-nav" role="main-nav" <a ome></a>
+  <a href="index.html" class="nav-button"><strong>Home</strong></a>
+  <a href="Lions.html" class="nav-button"><strong>Lions</strong></a>
+  <a href="Elephants.html"nav-button"><strong>Elephants</strong></a>
+  <a href="Cheetahs.html" class="nav-button"><strong>Cheetahs</strong></a>
+  <a href="Rhinos.html" class="nav-button"><strong>Rhinos</strong></a>
+  <a href="Giraffes.html" class="nav-button"><strong>Giraffes</strong></a>
+  <a href="Addax.html" class="nav-button"><strong>Addax</strong></a>
 <body>
     <h1><strong>Giraffes</strong></h1>
     <img src="giraffe.jpg" alt="a giraffe walking across the land during the day">
@@ -26,5 +33,20 @@
     body {
         background-color: #FFF0C2;
     }
+
+    #main-nav > a{ 
+        color:rgb(0, 0, 0);
+        background-color: rgb(255, 217, 170);
+       display: inline-block;
+       padding: 2em;
+       font-size: 2rem;
+        text-decoration: none;
+        transition: all ease-in-out 500ms;
+       }
+
+       #main-nav > a:hover {
+        color: rgb(120, 120, 120);
+        background-color: rgba(255, 188, 65, 0.76);
+       }
 </style>
 </html>
